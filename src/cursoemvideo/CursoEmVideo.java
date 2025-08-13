@@ -124,6 +124,7 @@ public class CursoEmVideo {
         menu();
     }
 
+
     static void caneta() {
         try {
             Caneta c1 = new Caneta("bic", "azul", 0.5f);
@@ -254,5 +255,8 @@ public class CursoEmVideo {
         //caneta();
 //        banco();
         menu();
+
+//        ControleRemoto c1 = new ControleRemoto();
+//        c1.abrirMenu();
     }
 }
